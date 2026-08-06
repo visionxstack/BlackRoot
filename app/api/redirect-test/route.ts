@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   return NextResponse.redirect(
-    "https://blackroot-np.vercel.app/test.png?from=redirect",
+    "http://127.0.0.1:9999",
     302
   );
 }
